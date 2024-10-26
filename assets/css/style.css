@@ -13082,18 +13082,14 @@ body.fade-out {
   width: 100%;
 }
 
- .best-collection-item {
- /*   display: flex;
-    flex-direction: row;*/
-  }
 
-  .single-img>img {
-    max-width: 97px;
-  }
+.single-img>img {
+  max-width: 97px;
+}
 
 @media (max-width: 992px) {
   .fix-card {
-    margin-top: 20px;
+    padding-top: 20px;
     padding-right: 0;
   }
 
