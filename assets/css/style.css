@@ -13092,6 +13092,15 @@ body.fade-out {
   }
 
 @media (max-width: 992px) {
+  .fix-card {
+    margin-top: 20px;
+    padding-right: 0;
+  }
+
+  .header-area .header-bottom {
+    padding: 22px 0px;
+  }
+
   .best-collection-list {
     display: flex;
     flex-direction: column;
@@ -13128,3 +13137,10 @@ body.fade-out {
   }
 }
 
+
+
+@media (max-width: 300px) {
+  .fix-card {
+    display: none;
+  }
+}
